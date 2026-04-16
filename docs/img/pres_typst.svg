@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="200" height="120">
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="120" fill="white"/>
+  <!-- Subtle grid -->
+  <line x1="35" y1="52" x2="190" y2="52" stroke="#e0e0e0" stroke-width="0.6"/>
+  <line x1="35" y1="10" x2="190" y2="10" stroke="#e0e0e0" stroke-width="0.6"/>
+  <!-- Axes -->
+  <line x1="35" y1="10" x2="35" y2="95" stroke="#555555" stroke-width="0.8"/>
+  <line x1="35" y1="95" x2="190" y2="95" stroke="#555555" stroke-width="0.8"/>
+  <!-- Tick labels y -->
+  <text x="30" y="98" font-size="7" fill="#555555" text-anchor="end">120</text>
+  <text x="30" y="55" font-size="7" fill="#555555" text-anchor="end">150</text>
+  <text x="30" y="13" font-size="7" fill="#555555" text-anchor="end">180</text>
+  <!-- Tick labels x -->
+  <text x="35" y="105" font-size="7" fill="#555555" text-anchor="middle">1</text>
+  <text x="66" y="105" font-size="7" fill="#555555" text-anchor="middle">2</text>
+  <text x="97" y="105" font-size="7" fill="#555555" text-anchor="middle">3</text>
+  <text x="128" y="105" font-size="7" fill="#555555" text-anchor="middle">4</text>
+  <text x="159" y="105" font-size="7" fill="#555555" text-anchor="middle">5</text>
+  <text x="190" y="105" font-size="7" fill="#555555" text-anchor="middle">6</text>
+  <!-- Axis labels -->
+  <text x="112" y="116" font-size="7" fill="#555555" text-anchor="middle">Monat</text>
+  <text x="8" y="55" font-size="7" fill="#555555" text-anchor="middle" transform="rotate(-90,8,55)">Umsatz</text>
+  <!-- Filled area below line (Typst cetz style) -->
+  <polygon points="35,95 66,58 97,77 128,25 159,44 190,10 190,95"
+    fill="#00808030"/>
+  <!-- Data line (Typst teal style) -->
+  <polyline points="35,95 66,58 97,77 128,25 159,44 190,10"
+    fill="none" stroke="#008080" stroke-width="1.5"
+    stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Data points -->
+  <circle cx="35"  cy="95" r="2" fill="white" stroke="#008080" stroke-width="1.5"/>
+  <circle cx="66"  cy="58" r="2" fill="white" stroke="#008080" stroke-width="1.5"/>
+  <circle cx="97"  cy="77" r="2" fill="white" stroke="#008080" stroke-width="1.5"/>
+  <circle cx="128" cy="25" r="2" fill="white" stroke="#008080" stroke-width="1.5"/>
+  <circle cx="159" cy="44" r="2" fill="white" stroke="#008080" stroke-width="1.5"/>
+  <circle cx="190" cy="10" r="2" fill="white" stroke="#008080" stroke-width="1.5"/>
+</svg>
